@@ -5,7 +5,7 @@ public class Empleado{
 	//Variable de clase
 	public static int contador = 0;
 	//Constructor
-	Empleado(String n, String r){
+	public Empleado(String n, String r){
 		nombre = n;
 		rfc = r;
 		contador++;
