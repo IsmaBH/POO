@@ -3,7 +3,7 @@ abstract class Figura{
 	//Los metodos abstractos no tienen definicion
 	//Solamente deben ser declarados como abstractos
 	abstract public double obtenerArea();
-	abstract public void dibuja();
+	abstract public String dibuja();
 	//Constructor
 	public Figura(String nomFigura){
 		nombre = nomFigura;
